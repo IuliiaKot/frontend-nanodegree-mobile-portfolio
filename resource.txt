@@ -1,0 +1,16 @@
+										
+	https://developers.google.com/web/fundamentals/performance/critical-rendering-path/optimizing-critical-rendering-path
+
+	http://www.html5rocks.com/en/tutorials/speed/animations/
+
+	https://www.devbridge.com/articles/need-for-speed-how-to-improve-your-website-performance/
+
+	http://www.webcredible.com/blog-reports/css/more-css-tricks.shtml
+
+	http://www.html5rocks.com/en/tutorials/speed/layers/
+		
+	https://plus.google.com/events/comnga3cdvrpkjm7dvb4l71ph2o?authkey=CPbhlNSdtpiEDg
+
+	http://www.html5rocks.com/en/tutorials/speed/scrolling/
+
+	https://developers.google.com/speed/articles/optimizing-javascript
