@@ -447,8 +447,14 @@ var resizePizzas = function(size) {
     //all will be the same size
     var pizzaContainers = document.querySelectorAll(".randomPizzaContainer");
     var dx = determineDx(pizzaContainers[0], size);   
+<<<<<<< HEAD
+    var newwidth = (pizzaContainers[0].offsetWidth + dx) + 'px';  
+    m = pizzaContainers.length 
+    for (var i = 0; i < m; i++) {
+=======
     var newwidth = (pizzaContainers[0].offsetWidth + dx) + 'px';   
     for (var i = 0, m = pizzaContainers.length; i < m; i++) {
+>>>>>>> e3817348dee6765185a96660f334ea61629c023a
       pizzaContainers[i].style.width = newwidth;
     }
   }
@@ -517,10 +523,19 @@ function updatePositions() {
   ticking = false;
   frame++;
   window.performance.mark("mark_start_frame");
+<<<<<<< HEAD
+  //optimaze: currentScrollY out of for loop
+  var items = document.querySelectorAll('.mover');
+  var currentScrollY = lastKnownScrollY / 1250;
+  for (var i = 0; i < items.length; i++) {
+    //optimaze currentScrollY calculate before loop
+    var phase = Math.sin((currentScrollY ) + (i % 5));
+=======
   var items = document.querySelectorAll('.mover');
   var currentScrollY = lastKnownScrollY;
   for (var i = 0, i < items.length; i++) {
     var phase = Math.sin((currentScrollY / 1250) + (i % 5));
+>>>>>>> e3817348dee6765185a96660f334ea61629c023a
     items[i].style.transform = "translateX("+ 100 * phase + "px)";
   }
 

@@ -6,6 +6,15 @@ To get started, check out the repository, inspect the code,
 
 ### Getting started
 
+<<<<<<< HEAD
+### Page load speed optimization
+- Minifying CSS/JS: all CSS and JS files were minified. The original file also present in the folder witout .min
+
+### Frame optimization
+- Loop optimization: unnecessary JS operations were pulled out of `for` loops where possible.
+
+=======
+>>>>>>> e3817348dee6765185a96660f334ea61629c023a
 ####Part 1: Optimize PageSpeed Insights score for index.html
 
 Some useful tips to help you get started:
