@@ -446,11 +446,9 @@ var resizePizzas = function(size) {
     //remove DOM look ups and redundant calculations from loop
     //all will be the same size
     var pizzaContainers = document.querySelectorAll(".randomPizzaContainer");
-    var dx = determineDx(pizzaContainers[0], size);   
+    var dx = determineDx(pizzaContainers[0], size);   // took some variable out from the loop
     var newwidth = (pizzaContainers[0].offsetWidth + dx) + 'px';  
     m = pizzaContainers.length 
-    for (var i = 0; i < m; i++) {
-    var newwidth = (pizzaContainers[0].offsetWidth + dx) + 'px';   
     for (var i = 0, m = pizzaContainers.length; i < m; i++) {
       pizzaContainers[i].style.width = newwidth;
     }
@@ -520,7 +518,6 @@ function updatePositions() {
   ticking = false;
   frame++;
   window.performance.mark("mark_start_frame");
-<<<<<<< HEAD
   //optimaze: currentScrollY out of for loop
   var items = document.querySelectorAll('.mover');
   var currentScrollY = lastKnownScrollY / 1250;
